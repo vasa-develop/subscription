@@ -28,18 +28,14 @@
     var password = document.getElementById("password").value;
     var _password = document.getElementById("re_password").value;
 
-    if(password == _password)
-    {
+    
       document.cookie = "username="+username;
       document.cookie = "firstname="+firstname;
       document.cookie = "lastname="+lastname;
       document.cookie = "email="+email;
       document.cookie = "password="+password;
-    }
-    else{
-      alert("Passwords do not match!!");
-      window.location = "http://54.91.189.21/subscription";
-    }
+    
+    
 
     
 
