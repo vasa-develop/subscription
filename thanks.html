@@ -16,6 +16,20 @@
     <!-- Custom styles for this template -->
     <link href="css/the-big-picture.css" rel="stylesheet">
 
+    <script type="text/javascript">
+
+      var delete_cookie = function(name) {
+        document.cookie = name + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+      };
+
+      delete_cookie('username');
+      delete_cookie('firstname');
+      delete_cookie('lastname');
+      delete_cookie('email');
+      delete_cookie('password');
+      delete_cookie('subscription');
+    </script>
+
   </head>
 
   <body>
